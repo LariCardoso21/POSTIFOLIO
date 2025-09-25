@@ -1,3 +1,144 @@
-body{
-    background-color: #f4ebdc;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: "inknut antiqua";
+  color: #213a58;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.menu {
+  height: 90vh;
+  background-image: url("./image/portfolio.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+h1 {
+  margin: 40px;
+  color: #213a58;
+  text-shadow: 0 4px 4px #cfad87, -0 4px 4px #fcd19c;
+  font-family: "Inknut Antiqua";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.infos {
+  margin-top: 400px;
+  margin-left: 200px;
+  color: #213a58;
+  text-shadow: 0 4px 4px #cfad87, 0 4px 4px #cfad87;
+  font-family: "Inknut Antiqua";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.infos nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.infos nav a {
+  color: #213a58;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p-sobremim {
+  width: 915px;
+  height: 385px;
+/*   margin-top: 200px;
+ */  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sobremim {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("./image/portfolioo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.projetos {
+  height: 110vh;
+  background-size: cover;
+  background-image: url("./image/poortfooliooo.png");
+  font-family: "Inknut Antiqua";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.projetos{
+    padding-top: 400px;
+}
+
+.projetos .box-projetos{
+    background-color: #0F1F41;
+    color: antiquewhite;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contato {
+  height: 110vh;
+  background-size: cover;
+  background-image: url("./image/prtifoliooo.png");
+  font-family: "Inknut Antiqua";
+}
+.cntt {
+  color: antiquewhite;
+  font-size: 26px;
+  font-weight: 300;
+  margin-left: 400px;
+}
+
+.div-contato{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.div-contato .btn-contato{
+    width: 900px;
+    background-color: #cfad87;
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+h3 {
+  color: antiquewhite;
+  font-size: 36px;
 }
